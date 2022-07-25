@@ -1,15 +1,15 @@
 <template>
   <div id="App"></div>
-  <todo />
+  <calculatrice />
 </template>
 
 <script>
-import todo from "./components/todo.vue";
+import calculatrice from "./components/calculatrice.vue";
 
 export default {
   name: "App",
   components: {
-    todo,
+    calculatrice,
   },
 };
 </script>
